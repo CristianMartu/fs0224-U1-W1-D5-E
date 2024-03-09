@@ -1,145 +1,165 @@
 /* Your styles here */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-body{
-    width: 100%;
-    color: #393d41;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
-    line-height: 1.65;
+
+html {
+  min-width: 700px;
 }
-header div{
-    background-color: black;
-    padding: 4.7vh 2vh;
-    padding: 2vh 2vh;
+body {
+  width: 100%;
+  color: #393d41;
+  font-family: 'Open Sans';
+  font-size: 1.2rem;
+  line-height: 1.65;
+  text-align: center;
 }
-header #logo {
-    width: 15%;
+header {
+  background-color: black;
+  text-align: start;
+}
+header img {
+  width: 12rem;
+  padding: 2rem;
+}
+.corso_web div {
+  width: 58rem;
+  margin: auto;
+}
+main .corso_web {
+  text-align: center;
+  background: url(../images/banner.jpg);
+  background-size: cover;
+  padding: 20vh;
+}
+main .corso_web button {
+  background-color: #f04c2f;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  padding: 1rem 3rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
 }
 
-main section{
-    text-align: center;
+main .description {
+  padding: 8rem 5rem;
+  text-align: center;
 }
-
-main .corso_web{
-    width: 100%;
-    padding: 10vh 16vh 15vh;
-    background: url(../images/banner.jpg) center center;
-    background-size: cover;
+.description div {
+  display: inline-block;
+  text-align: start;
+  margin-left: 5vh;
 }
-main .corso_web .web{
-    max-width: 75%s;
+main .description img {
+  width: 28rem;
+  border-radius: 50%;
 }
-main .corso_web button{
-    background-color: #f04c2f;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    padding: 1.5vh 3vh;
-    margin-top: 1.5vh;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
+main .description p {
+  margin: 0;
+  padding: 0;
+  max-width: 32vw;
 }
-main .description{
-    display: inline;
+main .description h2 {
+  margin: 2rem 0 0.2rem;
+  padding: 0;
+  max-width: 32vw;
 }
-main .description > div{
-    display: inline-block;
+.garanty {
+  text-align: center;
 }
-main .description .prova, main .description .prova h2{
-    font-size: 1rem;
-    line-height: 1em;
-    max-width: 400px;
+.garanty div {
+  width: 40rem;
+  margin: auto;
 }
-main .description p{
-    margin: 1.5vh 7vh 2vh;
+main .garanty,
+main .garanty h1 {
+  background-color: #e22d0e;
+  color: white;
+  padding: 6vh 4vh 0;
 }
-main div img{
-    border-radius: 50%;
-    width: 56%;
-    margin: 5vh;
+main .garanty p {
+  padding: 0;
 }
-main .garanty{
-    padding: 8vh 0vh 4vh;
-    background-color: #e22d0e;
-    color: white;
+main .garanty p:first-of-type {
+  padding: 1rem 1rem 2rem;
+  font-style: italic;
 }
-main .garanty h1{
-    padding-bottom: 4vh;
+main .garanty p:last-of-type {
+  padding-bottom: 10vh;
 }
-main .garanty p:first-of-type{
-    padding: 0vh 1.7vh 4vh;
-    font-style: italic;
+main .articols {
+  display: inline;
+  text-align: center;
+  margin: 2vw;
 }
-main .garanty h2, main .garanty h1{
-    color: white;
+main .articols article {
+  display: inline-block;
+  width: 28rem;
+  margin: 6rem 1rem;
+  border: 2px solid #dee1e3;
+  border-radius: 5px;
 }
-main .articols{
-    padding-top: 3vh;
+main .articols article p {
+  padding: 0 0 2rem;
 }
-main .articols article{
-    margin: 5.5vh;
-    border: 1px solid #dee1e3;
-    border-radius: 5px;
+main .articols article img {
+  max-height: 15rem;
+  width: 100%;
 }
-main .articols article img{
-    width: 100%;
-    margin-bottom: 0.5em;
+footer {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+  padding-bottom: 3rem;
+  text-align: center;
 }
-main .articols article p{
-    margin: 0vh 1vh 5vh;
-    size: 0.5em;
-    font-size: 0.9em;
+footer div {
+  display: inline-block;
+  text-align: start;
+  width: 19rem;
 }
-
-footer{
-    background-color: #25a2c3;
-    color: #c8e7f0;
-    padding: 8.5vh 0vh 4.7vh;
+footer li {
+  list-style: none;
 }
-footer h1{
-    color: white;
-    margin-bottom: 3vh;
+footer hr {
+  margin: 1.5rem 0;
 }
-footer a{
-    color: #c8e7f0;
+footer h1 {
+  color: white;
+  margin-bottom: 1.5rem;
+  text-align: start;
+  padding-left: 0;
 }
-footer hr{
-    width: 37vh;
-    margin: 5vh auto;
+footer i {
+  margin-right: 0.3rem;
 }
-footer i{
-    background: white;
-    padding: 0.4vh 0.3vh;
-    color: #25a2c3;
-    border-radius: 2px;
-    margin-right: 1vh;
+footer a {
+  color: #c8e7f0;
 }
-footer i:last-of-type{
-    padding: 0;
-    background: #25a2c3;
-    color: white;
+h1,
+h2,
+h3 {
+  color: #25a2c3;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  line-height: 1;
 }
-footer address{
-    font-size: medium;
+h1 {
+  font-size: 2.2rem;
+  padding: 3rem 4rem 0;
 }
-
-h1, h2, h3{
-    color: #25a2c3;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    line-height: 1.1;
-    margin-bottom: 1.5vh;
+h2 {
+  font-size: 1.8rem;
+  padding-top: 2rem;
 }
-h1{
-    font-size: 2.2rem;
+h3 {
+  font-size: 1.5rem;
+  padding: 1rem;
 }
-h2{
-    font-size: 1.8rem;
+h4 {
+  font-size: 1.5rem;
 }
-h3{
-    font-size: 1.5rem;
-}
-p{
-    margin-bottom: 1.5vh;
+p {
+  padding: 1rem 5rem;
 }
