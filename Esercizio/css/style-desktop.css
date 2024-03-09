@@ -1,0 +1,145 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    width: 100%;
+    color: #393d41;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.65;
+}
+header div{
+    background-color: black;
+    padding: 4.7vh 2vh;
+    padding: 2vh 2vh;
+}
+header #logo {
+    width: 15%;
+}
+
+main section{
+    text-align: center;
+}
+
+main .corso_web{
+    width: 100%;
+    padding: 10vh 16vh 15vh;
+    background: url(../images/banner.jpg) center center;
+    background-size: cover;
+}
+main .corso_web .web{
+    max-width: 75%s;
+}
+main .corso_web button{
+    background-color: #f04c2f;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 1.5vh 3vh;
+    margin-top: 1.5vh;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+main .description{
+    display: inline;
+}
+main .description > div{
+    display: inline-block;
+}
+main .description .prova, main .description .prova h2{
+    font-size: 1rem;
+    line-height: 1em;
+    max-width: 400px;
+}
+main .description p{
+    margin: 1.5vh 7vh 2vh;
+}
+main div img{
+    border-radius: 50%;
+    width: 56%;
+    margin: 5vh;
+}
+main .garanty{
+    padding: 8vh 0vh 4vh;
+    background-color: #e22d0e;
+    color: white;
+}
+main .garanty h1{
+    padding-bottom: 4vh;
+}
+main .garanty p:first-of-type{
+    padding: 0vh 1.7vh 4vh;
+    font-style: italic;
+}
+main .garanty h2, main .garanty h1{
+    color: white;
+}
+main .articols{
+    padding-top: 3vh;
+}
+main .articols article{
+    margin: 5.5vh;
+    border: 1px solid #dee1e3;
+    border-radius: 5px;
+}
+main .articols article img{
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+main .articols article p{
+    margin: 0vh 1vh 5vh;
+    size: 0.5em;
+    font-size: 0.9em;
+}
+
+footer{
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    padding: 8.5vh 0vh 4.7vh;
+}
+footer h1{
+    color: white;
+    margin-bottom: 3vh;
+}
+footer a{
+    color: #c8e7f0;
+}
+footer hr{
+    width: 37vh;
+    margin: 5vh auto;
+}
+footer i{
+    background: white;
+    padding: 0.4vh 0.3vh;
+    color: #25a2c3;
+    border-radius: 2px;
+    margin-right: 1vh;
+}
+footer i:last-of-type{
+    padding: 0;
+    background: #25a2c3;
+    color: white;
+}
+footer address{
+    font-size: medium;
+}
+
+h1, h2, h3{
+    color: #25a2c3;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 1.5vh;
+}
+h1{
+    font-size: 2.2rem;
+}
+h2{
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    margin-bottom: 1.5vh;
+}
