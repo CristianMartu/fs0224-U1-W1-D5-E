@@ -1,17 +1,15 @@
-/* Your styles here */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
-html {
-  min-width: 700px;
-}
 body {
+  margin: auto;
   width: 100%;
+  min-width: 48rem;
   color: #393d41;
   font-family: 'Open Sans';
   font-size: 1.2rem;
-  line-height: 1.65;
   text-align: center;
+  line-height: 1.65;
+  background-color: white;
 }
 header {
   background-color: black;
@@ -21,15 +19,14 @@ header img {
   width: 12rem;
   padding: 2rem;
 }
-.corso_web div {
-  width: 58rem;
-  margin: auto;
-}
 main .corso_web {
-  text-align: center;
   background: url(../images/banner.jpg);
   background-size: cover;
-  padding: 20vh;
+}
+main .corso_web div {
+  width: 48rem;
+  margin: auto;
+  padding: 14rem 1rem;
 }
 main .corso_web button {
   background-color: #f04c2f;
@@ -42,10 +39,8 @@ main .corso_web button {
   margin-bottom: 3rem;
   margin-top: 1rem;
 }
-
 main .description {
   padding: 8rem 5rem;
-  text-align: center;
 }
 .description div {
   display: inline-block;
@@ -59,25 +54,22 @@ main .description img {
 main .description p {
   margin: 0;
   padding: 0;
-  max-width: 32vw;
+  width: 32rem;
 }
 main .description h2 {
   margin: 2rem 0 0.2rem;
   padding: 0;
-  max-width: 32vw;
-}
-.garanty {
-  text-align: center;
+  width: 32rem;
 }
 .garanty div {
-  width: 40rem;
+  width: 48rem;
   margin: auto;
+  padding: 5rem 1rem;
 }
 main .garanty,
 main .garanty h1 {
   background-color: #e22d0e;
   color: white;
-  padding: 6vh 4vh 0;
 }
 main .garanty p {
   padding: 0;
@@ -87,12 +79,16 @@ main .garanty p:first-of-type {
   font-style: italic;
 }
 main .garanty p:last-of-type {
-  padding-bottom: 10vh;
+  padding-bottom: 2rem;
 }
 main .articols {
   display: inline;
   text-align: center;
-  margin: 2vw;
+  margin: 2rem;
+}
+main .articols article a {
+  text-decoration: none;
+  color: black;
 }
 main .articols article {
   display: inline-block;
@@ -111,16 +107,12 @@ main .articols article img {
 footer {
   background-color: #25a2c3;
   color: #c8e7f0;
-  padding-bottom: 3rem;
-  text-align: center;
 }
 footer div {
   display: inline-block;
   text-align: start;
   width: 19rem;
-}
-footer li {
-  list-style: none;
+  padding: 5rem 1rem;
 }
 footer hr {
   margin: 1.5rem 0;
@@ -128,11 +120,12 @@ footer hr {
 footer h1 {
   color: white;
   margin-bottom: 1.5rem;
-  text-align: start;
-  padding-left: 0;
 }
 footer i {
   margin-right: 0.3rem;
+}
+footer address {
+  text-align: center;
 }
 footer a {
   color: #c8e7f0;
@@ -147,7 +140,6 @@ h3 {
 }
 h1 {
   font-size: 2.2rem;
-  padding: 3rem 4rem 0;
 }
 h2 {
   font-size: 1.8rem;
@@ -161,5 +153,8 @@ h4 {
   font-size: 1.5rem;
 }
 p {
-  padding: 1rem 5rem;
+  padding: 1rem;
+}
+li {
+  list-style: none;
 }
